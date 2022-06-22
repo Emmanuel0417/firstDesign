@@ -1,0 +1,35 @@
+.f2,.f1{
+  vertical-align: middle;
+  display: inline-block;
+   border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color:rgb(255, 252, 252);
+  border-width: 0.5px;
+}
+ 
+.email{
+  display: block;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right:175px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-width: 0.2px;
+  
+}
+.sign{
+  background-color: rgba(37, 84, 238, 0.835);
+  color: white;
+  margin-top: 15px;
+  padding-left: 157px;
+  padding-right: 157px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+}

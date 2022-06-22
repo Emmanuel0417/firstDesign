@@ -1,0 +1,64 @@
+.header{
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.left-section{
+  align-items: center;
+  display: flex ;
+}
+.right-section{
+ 
+width: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-right: 10px;
+ flex-shrink: 0;
+}
+.middle-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+ }
+ .menu{
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+ .logo{
+  height: 20px;
+ }
+ .search{
+  flex: 1;
+  width: 10px;
+  padding-left: 12px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+ }
+ .search::placeholder{
+  font-family: roboto,Arial,;
+  font-size: 16px;
+  
+ }
+ .class{
+  height:20px;
+  width: 5px;
+ }
+ .go{
+  height: 24px;
+  border-radius: 3px;
+ }
