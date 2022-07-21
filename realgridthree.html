@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .grid_container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto 40px;
+        background-color: #2196f3;
+        padding: 10px;
+      }
+      .grid_container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+      .grid_one {
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+      .grid_five {
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+      .grid_four {
+        height: 300px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="grid_container">
+      <div class="grid_one">1</div>
+      <div class="grid_two">2</div>
+      <div class="grid_three">3</div>
+      <div class="grid_four">4</div>
+      <div class="grid_five">5</div>
+    </div>
+  </body>
+</html>
